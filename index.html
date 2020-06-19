@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flickity.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+</head>
+<body>
+
+    <!-- Start Header -->
+    <header id="header">
+
+        <!-- Start Header for Large Devices -->
+        <nav class="navbar navbar-expand-lg navbar-big">
+
+            <div class="top-content">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/magic-men-gold-logo.png" alt="logo">
+                    </a>
+                    <form class="input-group search-bar">
+                        <input type="text" class="form-control" placeholder="Search Product…" aria-label="Search Product…" required>
+                        <div class="category-select">
+                            <select>
+                                <option value="0">All Categories</option>
+                                <option value="1">Best Sellers</option>
+                                <option value="2">Merchandise</option>
+                                <option value="3">Hens Party</option>
+                                <option value="4">Vibrators</option>
+                                <option value="5">Dildos</option>
+                                <option value="6">Bondage</option>
+                                <option value="7">Lubes</option>
+                                <option value="8">Brands</option>
+                            </select>
+                        </div>
+                        <div class="input-group-append">
+                            <button type="submit">
+                                <img src="./img/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </form>
+                    <div class="personal-info">
+                        <div class="item">
+                            <img src="./img/user.svg" alt="user">
+                            <div class="links">
+                                <a href="#">My Account</a>
+                                <a href="#">Log In</a>                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/heart.svg" alt="heart">
+                            <div class="links">
+                                <a href="#">Wish List</a>
+                                <a href="#">Special products</a>                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-icon-cart">
+                                <span class="badge badge-pill">0</span>
+                                <img src="./img/shop-cart.svg" alt="shop-cart">
+                            </div>
+                            <div class="links">
+                                <a href="#">My Cart</a>
+                                <span class="price">0.00</span>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="collapse navbar-collapse">
+                <div class="container d-flex">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">BEST SELLERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MERCHANDISE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HENS PARTY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">VIBRATORS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DILDOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BONDAGE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LUBES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BRANDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MAGIC MEN SHOW</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Header for Large Devices -->
+
+        <!-- Start Header for Mobile Devices -->
+        <nav class="navbar navbar-expand-lg navbar-small">
+            <div class="top-content">
+                <div class="top-content-left">
+                    <button id="toogler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>            
+                    <a href="#" class="menu-icon search-icon">
+                        <img src="./img/combined-shape.svg" alt="search">
+                    </a>
+                </div>
+                <a class="navbar-brand" href="#">
+                    <img src="./img/magic-men-gold-logo.png" alt="logo">
+                </a>
+                <div class="top-content-right">
+                    <a href="#" class="menu-icon heart-icon">
+                        <img src="./img/heart.svg" alt="heart">
+                    </a>
+                    <a href="#" class="menu-icon shop-icon-cart">
+                        <span class="badge badge-pill">0</span>
+                        <img src="./img/shop-cart.svg" alt="shop-cart">
+                    </a>
+                </div>                
+            </div>
+            <div class="bottom-content">
+                <div class="container">    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">BEST SELLERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">MERCHANDISE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HENS PARTY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">VIBRATORS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">DILDOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BONDAGE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LUBES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BRANDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">MAGIC MEN SHOW</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="input-group search-bar">
+                        <input type="text" class="form-control" placeholder="Search Product…" aria-label="Search Product…" required>
+                        <div class="input-group-append">
+                            <button type="submit">
+                                <img src="./img/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- End Header for Mobile Devices -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main Banner for Large Devices -->
+    <div class="banner main-banner-md">
+        <div class="proposition">
+            20% satisfyer range off with code: satisfaction20<span class="timer">00:00:00</span>
+        </div>
+        <img src="./img/combined-shape-yellow.svg" alt="bottom combine" class="left-bg-figure">
+        <img src="./img/combined-shape-pink.svg" alt="bottom combine" class="right-bg-figure">
+
+        <!-- Start left products animation -->
+        <!-- First item must have class .d-block -->
+        <div class="left-animation move-animation">
+            <div class="item d-block">
+                <img class="product-img left" src="./img/product-1.png" alt="product">
+                <div class="left-carousel">
+                    <div class="product-info">
+                        <div class="title">Irresistible Invincible</div>
+                        <div class="price">$154.95</div>
+                        <a href="#" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="product-img left" src="./img/product-3.png" alt="product">
+                <div class="left-carousel">
+                    <div class="product-info">
+                        <div class="title">Hutachi Magic Wand</div>
+                        <div class="price">$219</div>
+                        <a href="#" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End left products animation -->
+
+        <!-- Start right products animation -->
+        <!-- First item must have class .d-block -->
+        <div class="right-animation move-animation">
+            <div class="item d-block">
+                <img class="product-img right" src="./img/product-2.png" alt="product">
+                <div class="right-carousel">
+                    <div class="product-info">
+                        <div class="title">The Satisfyer Pro 2</div>
+                        <div class="price">$59.95</div>
+                        <a href="#" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="product-img right" src="./img/product-4.png" alt="product">
+                <div class="right-carousel">
+                    <div class="product-info">
+                        <div class="title">Satisfyer Pro Deluxe</div>
+                        <div class="price">$69.95</div>
+                        <a href="#" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End right products animation -->     
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-container">
+                        <h1>Our Best<br>Sex Toys</h1>
+                        <p>The official Magic Men online superstore where you can purchase all Magic men merch, bedroom toys and hen 
+                            party accessories. You’ll be able to find a huge array of toys, tools, and tricks to inspire, rejuvenate, 
+                            or just make a great thing even better.</p>
+                        <a href="#" class="shop-now">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Banner for Large Devices -->
+
+    <!-- Start Main Banner for Mobile Devices -->
+    <div class="banner main-banner-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Our Best Sex Toys</h2>
+                    <p>The official Magic Men online store where you can purchase all Magic men merch, bedroom toys and hen party accessories.</p>
+                    <div class="toys-tiles">
+                        <div class="item">
+                            <img src="./img/vibrators.svg" alt="vibrators">
+                            <div class="title">Vibrators</div>
+                        </div>  
+                        <div class="item">
+                            <img src="./img/bondage.svg" alt="bondage">
+                            <div class="title">Bondage</div>
+                        </div>  
+                        <div class="item">
+                            <img src="./img/wands.svg" alt="wands">
+                            <div class="title">Wands</div>
+                        </div>  
+                        <div class="item">
+                            <img src="./img/merch.svg" alt="merch">
+                            <div class="title">Merch</div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Banner for Mobile Devices -->
+
+    <!-- Start Awards -->
+    <div class="awards">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 award pr-0">
+                    <img src="./img/award.png" alt="award">
+                </div>
+                <div class="col-4 award">
+                    <img src="./img/business-award.png" alt="award">
+                </div>
+                <div class="col-4 award pl-0">
+                    <img src="./img/faster-groving.png" alt="award">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Awards -->
+
+    <!-- Start Advantages -->
+    <div class="advantages">
+        <div class="container">
+            <div class="row">
+                <div class="item col-6 col-md-3">
+                    <div class="item-top-content">
+                        <div class="svg-container">
+                            <img src="./img/seo-and-web-1.svg" alt="seo-and-web">                        
+                        </div>
+                    </div>
+                    <div class="item-bottom-content">
+                        <div class="title">Quality products</div>
+                        <p>Various versions have evolved over the years, sometimes by accident.</p>
+                    </div>
+                </div>
+                <div class="item col-6 col-md-3">
+                    <div class="item-top-content">
+                        <div class="svg-container">
+                            <img src="./img/trucking.svg" alt="trucking">                        
+                        </div>
+                    </div>
+                    <div class="item-bottom-content">            
+                        <div class="title">Fast shipping</div>
+                        <p>Various versions have evolved over the years, sometimes by accident.</p>
+                    </div>
+                </div>
+                <div class="item col-6 col-md-3">
+                    <div class="item-top-content">
+                        <div class="svg-container">
+                            <img src="./img/shipping-and-delivery.svg" alt="shipping-and-delivery">
+                        </div>
+                    </div>
+                    <div class="item-bottom-content">
+                        <div class="title">Discreet Packaging</div>
+                        <p>Various versions have evolved over the years, sometimes by accident.</p>
+                    </div>
+                </div>
+                <div class="item col-6 col-md-3">
+                    <div class="item-top-content">
+                        <div class="svg-container">
+                            <img src="./img/business-and-finance.svg" alt="business-and-finance">
+                        </div>
+                    </div>
+                    <div class="item-bottom-content">
+                        <div class="title">Australia's Favourite Toys</div>
+                        <p>Various versions have evolved over the years, sometimes by accident.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Advantages -->
+    
+    <!-- Start Tiles -->
+    <div class="tiles">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <div class="tile-item">
+                        <img src="./img/tiles/magic-wand.jpg"
+                            srcset="./img/tiles/magic-wand@2x.jpg 2x,
+                                    ./img/tiles/magic-wand@3x.jpg 3x"
+                            alt="Magic Wand">
+                        <div class="tile-content">
+                            <div class="category">MAGIC WAND</div>
+                            <div class="title">Plus &<br>Rechargeable</div>
+                            <a href="#" class="shop-now">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 right-tiles">
+                    <div class="tile-item second">
+                        <img src="./img/tiles/bondage.jpg"
+                             srcset="./img/tiles/bondage@2x.jpg 2x,
+                             /img/tiles/bondage@3x.jpg 3x" alt="Bondage">
+                        <div class="tile-content">
+                            <div class="">
+                                <div class="category">50 SHADES OF NAUGHTY</div>
+                                <div class="title">Bondage</div>
+                            </div>
+                            <a href="#" class="shop-now">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="tile-item">
+                        <img src="./img/tiles/satisfyer.jpg"
+                             srcset="./img/tiles/satisfyer@2x.jpg 2x,
+                             /img/tiles/satisfyer@3x.jpg 3x" alt="Satisfyer">
+                        <div class="tile-content">
+                            <div class="">
+                                <div class="category">FULL RANGE</div>
+                                <div class="title">Satisfyer</div>
+                            </div>
+                            <a href="#" class="shop-now">Shop now</a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <!-- End Tiles -->
+
+    <!-- Start Top Sellers -->
+    <section class="top-sellers">
+        <div class="container">
+            <h2>Top Sellers</h2>
+            <div class="product-items">
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/top-sellers/img-1.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE BUNNY LOVE</a>
+                        <div class="stars">
+                            <span class="stars-container stars-100">★★★★★</span>
+                            <span class="comments">(72)</span>
+                        </div>
+                        <div class="price discount">$219</div>
+                        <span class="price-previous">$269</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/top-sellers/img-2.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE THE LUMINOUS G</a>
+                        <div class="stars">
+                            <span class="stars-container stars-100">★★★★★</span>
+                            <span class="comments">(72)</span>
+                        </div>
+                        <div class="price discount">$219</div>
+                        <span class="price-previous">$269</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/top-sellers/img-3.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE LITTLE DIRTY</a>
+                        <div class="stars">
+                            <span class="stars-container stars-80">★★★★★</span>
+                            <span class="comments">(146)</span>
+                        </div>
+                        <div class="price discount">$59.95</div>
+                        <span class="price-previous">$79.95</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/top-sellers/img-4.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                        <div class="stars">
+                            <span class="stars-container stars-90">★★★★★</span>
+                            <span class="comments">(19)</span>
+                        </div>
+                        <div class="price discount">$24.95</div>
+                        <span class="price-previous">$29.95</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/top-sellers/img-5.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                        <div class="stars">
+                            <span class="stars-container stars-90">★★★★★</span>
+                            <span class="comments">(19)</span>
+                        </div>
+                        <div class="price discount">$24.95</div>
+                        <span class="price-previous">$29.95</span>
+                    </div>
+                </div>
+            </div>             
+            <a href="#" class="link-btn-dark">View all</a>
+        </div>
+    </section>
+    <!-- End Top Sellers -->
+
+    <!-- Start Products Featured -->
+    <section class="products-featured">
+        <div class="container">
+            <h2>Our Products Featured In</h2>
+            <div class="product-items">
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-1.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE BUNNY LOVE</a>
+                        <div class="stars">
+                            <span class="stars-container stars-100">★★★★★</span>
+                            <span class="comments">(72)</span>
+                        </div>
+                        <div class="price discount">$219</div>
+                        <span class="price-previous">$269</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-2.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE THE LUMINOUS G</a>
+                        <div class="stars">
+                            <span class="stars-container stars-100">★★★★★</span>
+                            <span class="comments">(72)</span>
+                        </div>
+                        <div class="price discount">$219</div>
+                        <span class="price-previous">$269</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-3.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE LITTLE DIRTY</a>
+                        <div class="stars">
+                            <span class="stars-container stars-80">★★★★★</span>
+                            <span class="comments">(146)</span>
+                        </div>
+                        <div class="price discount">$59.95</div>
+                        <span class="price-previous">$79.95</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-4.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                        <div class="stars">
+                            <span class="stars-container stars-90">★★★★★</span>
+                            <span class="comments">(19)</span>
+                        </div>
+                        <div class="price discount">$24.95</div>
+                        <span class="price-previous">$29.95</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-5.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                        <div class="stars">
+                            <span class="stars-container stars-90">★★★★★</span>
+                            <span class="comments">(19)</span>
+                        </div>
+                        <div class="price discount">$24.95</div>
+                        <span class="price-previous">$29.95</span>
+                    </div>
+                </div>
+            </div>           
+            <a href="#" class="link-btn-dark">View all</a>
+        </div>
+    </section>
+    <!-- End Products Featured -->
+
+    <!-- Start Brands -->
+    <section class="brands">
+        <div class="container">
+            <h2>Brands Featured In</h2>
+            <div class="row brand-items">
+                <div class="col-6 col-md-3 item">
+                    <img src="./img/brands/vogue-logo.png" alt="vogue">
+                </div>
+                <div class="col-6 col-md-3 item">
+                    <img src="./img/brands/marie-claire-logo.png" alt="marie-claire">
+                </div>
+                <div class="col-6 col-md-3 item">
+                    <img src="./img/brands/elle-magazine-logo.png" alt="elle">
+                </div>
+                <div class="col-6 col-md-3 item">
+                    <img src="./img/brands/daily-mail-logo.png" alt="daily-mail">
+                </div>
+                <div class="col-6 col-md-3 item">
+                    <img src="./img/brands/cosmopolitan-logo.png" alt="cosmopolitan">
+                </div>
+                <div class="col-6 col-md-3 item">
+                    <img src="./img/brands/womens-health-logo.png" alt="womens-health">
+                </div>
+                <div class="col-6 col-md-3 item">
+                    <img src="./img/brands/mamamia-logo.png" alt="mamamia">
+                </div>
+                <div class="col-6 col-md-3 item">
+                    <img src="./img/brands/aww-logo.png" alt="aww">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Brands -->
+
+    <!-- Start Collection -->
+    <section class="collection">
+        <div class="container">
+            <h2>New Collection</h2>
+            <div class="product-items">
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-1.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE BUNNY LOVE</a>
+                        <div class="stars">
+                            <span class="stars-container stars-100">★★★★★</span>
+                            <span class="comments">(72)</span>
+                        </div>
+                        <div class="price discount">$219</div>
+                        <span class="price-previous">$269</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-2.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE THE LUMINOUS G</a>
+                        <div class="stars">
+                            <span class="stars-container stars-100">★★★★★</span>
+                            <span class="comments">(72)</span>
+                        </div>
+                        <div class="price discount">$219</div>
+                        <span class="price-previous">$269</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-3.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE LITTLE DIRTY</a>
+                        <div class="stars">
+                            <span class="stars-container stars-80">★★★★★</span>
+                            <span class="comments">(146)</span>
+                        </div>
+                        <div class="price discount">$59.95</div>
+                        <span class="price-previous">$79.95</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-4.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                        <div class="stars">
+                            <span class="stars-container stars-90">★★★★★</span>
+                            <span class="comments">(19)</span>
+                        </div>
+                        <div class="price discount">$24.95</div>
+                        <span class="price-previous">$29.95</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/products/img-5.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                        <div class="stars">
+                            <span class="stars-container stars-90">★★★★★</span>
+                            <span class="comments">(19)</span>
+                        </div>
+                        <div class="price discount">$24.95</div>
+                        <span class="price-previous">$29.95</span>
+                    </div>
+                </div>
+            </div>            
+            <a href="#" class="link-btn-dark">View all</a>
+        </div>
+    </section>
+    <!-- End Collection -->
+
+    
+    
+    <!-- Start Merchandise -->
+    <section class="merchandise">
+        <div class="container merch-container">
+            <h2>Magic Men Merchandise</h2>
+            <div class="product-items">
+                <div class="item">
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/merchandise/img-1.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">Will Parfitt | Car Air Freshener</a>
+                        <div class="stars">
+                            <span class="stars-container stars-0">★★★★★</span>
+                        </div>
+                        <div class="price">$10</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/merchandise/img-2.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">Tyreese | Car Air Freshener</a>
+                        <div class="stars">
+                            <span class="stars-container stars-0">★★★★★</span>
+                        </div>
+                        <div class="price">$10</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/merchandise/img-3.png" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">Magic Men Beach Towel</a>
+                        <div class="stars">
+                            <span class="stars-container stars-0">★★★★★</span>
+                        </div>
+                        <div class="price discount">$35</div>
+                        <span class="price-previous">$50</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/merchandise/img-4.png" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">Magic Men Eye Mask</a>
+                        <div class="stars">
+                            <span class="stars-container stars-0">★★★★★</span>
+                        </div>
+                        <div class="price discount">$10</div>
+                        <span class="price-previous">$15</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sale">sale</div>
+                    <div class="item-top-content">
+                        <a href="#" class="item-img">
+                            <img src="./img/merchandise/img-5.jpg" alt="img">
+                        </a>
+                        <button class="add-to-cart">add to cart</button>
+                    </div>
+                    <div class="item-bottom-content">
+                        <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                        <div class="stars">
+                            <span class="stars-container stars-0">★★★★★</span>
+                        </div>
+                        <div class="price discount">$24.95</div>
+                        <span class="price-previous">$29.95</span>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="link-btn-dark">View all</a>
+        </div>
+
+        <div class="container show-container">
+            <div class="show-banner">
+                <h2>MAGIC MEN SHOW</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page 
+                    when looking at its layout. The point of using Lorem Ipsum is that it has.</p>
+                <a href="#" class="link-btn-white">Learn more</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Merchandise -->
+
+    <!-- Start Instagram -->
+    <section class="instagram">
+        <div class="container">
+            <h2>Add Us on Instagram</h2>
+            <div class="row">
+                <div class="col-12 items">
+                    <div class="item">
+                        <img src="./img/instagram/img-1.jpg" alt="instagram-1">
+                    </div>
+                    <div class="item">
+                        <img src="./img/instagram/img-2.jpg" alt="instagram-2">
+                    </div>
+                    <div class="item">
+                        <img src="./img/instagram/img-3.jpg" alt="instagram-3">
+                    </div>
+                    <div class="item">
+                        <img src="./img/instagram/img-4.jpg" alt="instagram-4">
+                    </div>
+                    <div class="item">
+                        <img src="./img/instagram/img-5.jpg" alt="instagram-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Instagram -->
+
+    <!-- Start Footer -->
+    <footer class="new-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 row menus px-md-0">
+                    <div class="col-12 pb-4 col-md-6 col-lg-2 px-0">
+                        <h5>Useful links</h5>
+                        <ul>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 pb-4 col-md-6 col-lg-3 px-0">
+                        <h5>Main menu</h5>
+                        <ul class="half-items d-flex flex-wrap">
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">Bondage</a></li>
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Lubes</a></li>
+                            <li><a href="#">Hens Party</a></li>
+                            <li><a href="#">Brands</a></li>
+                            <li><a href="#">Vibrators</a></li>
+                            <li><a href="#">Magic Men Show</a></li>
+                            <li><a href="#">Dildos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 px-0">
+                        <h5>Contact info</h5>
+                        <p class="uppercase white-color pt-sm-2">MAGIC MEN ABN 84 314 489 72</p>
+                        <p class="mb-4" style="max-width: 300px;">Australia's leading full service entertainment and pleasure chest for women.</p>
+                        <div class="d-flex socials">
+                            <a href="#"><img src="./img/socials/facebook.svg" alt="facebook"></a>
+                            <a href="#"><img src="./img/socials/twitter.svg" alt="twitter"></a>
+                            <a href="#"><img src="./img/socials/instagram.svg" alt="instagram"></a>
+                            <a href="#"><img src="./img/socials/youtube-logo.svg" alt="youtube"></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-0">
+                        <h5>Magic ladies club</h5>
+                        <p class="pt-sm-2 mb-4" style="max-width: 320px;">Become a VIP Magic Lady and get the latest show update, goss and deals.</p>
+                        <form class="footer-form" action="#">
+                            <input name="email" type="email" placeholder="Enter your email address">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 copyright">
+                    <p class="specific-color d-flex align-items-center">© 2020 MAGIC MEN AU</p>
+                    <ul class="pays">
+                        <li><img src="./img/pays/visa-logo.png" alt="Visa"></li>
+                        <li><img src="./img/pays/mastercard-logo.png" alt="Mastercard"></li>
+                        <li><img src="./img/pays/american-express-logo.png" alt="American Express"></li>
+                        <li><img src="./img/pays/paypal-logo.png" alt="Paypal"></li>
+                        <li><img src="./img/pays/google-pay-logo.png" alt="Google Pay"></li>
+                        <li><img src="./img/pays/apple-pay-logo.png" alt="Apple Pay"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
