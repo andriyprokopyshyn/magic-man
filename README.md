@@ -1,2 +1,4 @@
 ## Magic Man
-Link: https://andriyprokopyshyn.github.io/magic-man/
+[Main page](https://andriyprokopyshyn.github.io/magic-man/)
+
+[Category page](https://andriyprokopyshyn.github.io/magic-man/category.html)
