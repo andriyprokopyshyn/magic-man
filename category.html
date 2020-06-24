@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css?ver=1.03">
+    <link rel="stylesheet" href="css/flickity.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category page</title>
+</head>
+
+<body class="category-page">
+
+    <!-- Start Header -->
+    <header id="header">
+
+        <!-- Start Header for Large Devices -->
+        <nav class="navbar navbar-expand-lg navbar-big">
+
+            <div class="top-content">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/magic-men-gold-logo.png" alt="logo">
+                    </a>
+                    <form class="input-group search-bar">
+                        <input type="text" class="form-control" placeholder="Search Product…"
+                            aria-label="Search Product…" required>
+                        <div class="category-select">
+                            <select>
+                                <option value="0">All Categories</option>
+                                <option value="1">Best Sellers</option>
+                                <option value="2">Merchandise</option>
+                                <option value="3">Hens Party</option>
+                                <option value="4">Vibrators</option>
+                                <option value="5">Dildos</option>
+                                <option value="6">Bondage</option>
+                                <option value="7">Lubes</option>
+                                <option value="8">Brands</option>
+                            </select>
+                        </div>
+                        <div class="input-group-append">
+                            <button type="submit">
+                                <img src="./img/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </form>
+                    <div class="personal-info">
+                        <div class="item">
+                            <img src="./img/user.svg" alt="user">
+                            <div class="links">
+                                <a href="#">My Account</a>
+                                <a href="#">Log In</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./img/heart.svg" alt="heart">
+                            <div class="links">
+                                <a href="#">Wish List</a>
+                                <a href="#">Special products</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="shop-icon-cart">
+                                <span class="badge badge-pill">0</span>
+                                <img src="./img/shop-cart.svg" alt="shop-cart">
+                            </div>
+                            <div class="links">
+                                <a href="#">My Cart</a>
+                                <span class="price">0.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <div class="container d-flex">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">BEST SELLERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MERCHANDISE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HENS PARTY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">VIBRATORS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DILDOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BONDAGE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LUBES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BRANDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MAGIC MEN SHOW</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Header for Large Devices -->
+
+        <!-- Start Header for Mobile Devices -->
+        <nav class="navbar navbar-expand-lg navbar-small">
+            <div class="top-content">
+                <div class="top-content-left">
+                    <button id="toogler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a href="#" class="menu-icon search-icon">
+                        <img src="./img/combined-shape.svg" alt="search">
+                    </a>
+                </div>
+                <a class="navbar-brand" href="#">
+                    <img src="./img/magic-men-gold-logo.png" alt="logo">
+                </a>
+                <div class="top-content-right">
+                    <a href="#" class="menu-icon heart-icon">
+                        <img src="./img/heart.svg" alt="heart">
+                    </a>
+                    <a href="#" class="menu-icon shop-icon-cart">
+                        <span class="badge badge-pill">0</span>
+                        <img src="./img/shop-cart.svg" alt="shop-cart">
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-content">
+                <div class="container">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">BEST SELLERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">MERCHANDISE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HENS PARTY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">VIBRATORS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">DILDOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BONDAGE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LUBES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BRANDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">MAGIC MEN SHOW</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="input-group search-bar">
+                        <input type="text" class="form-control" placeholder="Search Product…"
+                            aria-label="Search Product…" required>
+                        <div class="input-group-append">
+                            <button type="submit">
+                                <img src="./img/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- End Header for Mobile Devices -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Category Banner Start -->
+    <section class="banner category-banner best-sellers">
+        <div class="proposition">
+            20% satisfyer range off with code: satisfaction20<span class="timer">00:00:00</span>
+        </div>
+        <h1>Best Sellers Collections</h1>
+    </section>
+    <!-- Category Banner End -->
+
+    <!-- Mobile Filter Start -->
+    <!-- Main part with categories in Modal Container -->
+    <div class="filter-mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between">
+                    <button id="filter-sm" class="filter-btn">Filter</button>
+                    <div class="filter-select">
+                        <select name="sort">
+                            <option value="">Sort</option>
+                            <option value="new-product">New Product</option>
+                            <option value="lowest-price">Lowest Price</option>
+                            <option value="highest-price">Highest Price</option>
+                            <option value="product-name">Product Name</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Filter End -->
+
+    <!-- Catalog Start -->
+    <div class="catalog">
+        <div class="container d-flex">
+            <!-- Desktop Filter Start -->
+            <div class="filter-desktop">
+
+                <!-- Start Best Sellers -->
+                <div class="categories-container">
+                    <div class="title">Best Sellers</div>
+                    <ul class="categories" data-id="best-sellers">
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" checked="checked" name="new">
+                                <span class="checkmark"></span>
+                                New
+                                <span class="count">5</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="popular">
+                                <span class="checkmark"></span>
+                                Popular
+                                <span class="count">26</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="price">
+                                <span class="checkmark"></span>
+                                Price
+                                <span class="count">21</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="everything-on-sort">
+                                <span class="checkmark"></span>
+                                Everything on sort
+                                <span class="count">13</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Best Sellers -->
+
+                <!-- Start Categories -->
+                <div class="categories-container">
+                    <div class="title">Categories</div>
+                    <ul class="categories" data-id="categories">
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" checked="checked" name="vibrators">
+                                <span class="checkmark"></span>
+                                Vibrators
+                                <span class="count">11</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="anal">
+                                <span class="checkmark"></span>
+                                Anal
+                                <span class="count">13</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="dongs">
+                                <span class="checkmark"></span>
+                                Dongs
+                                <span class="count">24</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="dildos-Strapons">
+                                <span class="checkmark"></span>
+                                Dildos, & Strapons
+                                <span class="count">6</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="bullets">
+                                <span class="checkmark"></span>
+                                Bullets
+                                <span class="count">10</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="balls">
+                                <span class="checkmark"></span>
+                                Balls
+                                <span class="count">8</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="eggs">
+                                <span class="checkmark"></span>
+                                Eggs
+                                <span class="count">9</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="accessories">
+                                <span class="checkmark"></span>
+                                Accessories
+                                <span class="count">12</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="female-pumps">
+                                <span class="checkmark"></span>
+                                Female Pumps
+                                <span class="count">17</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="kegel-exercisers">
+                                <span class="checkmark"></span>
+                                Kegel Exercisers
+                                <span class="count">4</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Categories -->
+
+                <!-- Start Brands -->
+                <div class="categories-container for-brands">
+                    <div class="title">Brands</div>
+                    <div class="bordered-content">
+                        <input name="brand-search" placeholder="Find your brand">
+                        <ul class="categories" data-id="brands">
+                            <li>
+                                <label class="custom-checkbox-container">
+                                    <input type="checkbox" name="adam-eve">
+                                    <span class="checkmark"></span>
+                                    Adam & Eve
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-checkbox-container">
+                                    <input type="checkbox" name="50-shades-of-grey">
+                                    <span class="checkmark"></span>
+                                    50 Shades of Grey
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-checkbox-container">
+                                    <input type="checkbox" name="bodywand-massager">
+                                    <span class="checkmark"></span>
+                                    Bodywand Massager
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-checkbox-container">
+                                    <input type="checkbox" checked="checked" name="clone-a-willy">
+                                    <span class="checkmark"></span>
+                                    Clone-a-Willy
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-checkbox-container">
+                                    <input type="checkbox" name="evolved">
+                                    <span class="checkmark"></span>
+                                    Evolved
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-checkbox-container">
+                                    <input type="checkbox" name="magic-men-show">
+                                    <span class="checkmark"></span>
+                                    MAGIC MEN SHOW
+                                </label>
+                            </li>
+                            <li>
+                                <label class="custom-checkbox-container">
+                                    <input type="checkbox" name="magic-men-au">
+                                    <span class="checkmark"></span>
+                                    MAGIC MEN AU
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End Brands -->
+            <!-- Desktop Filter End -->
+
+            <div class="catalog-items">
+                <div class="items-count d-lg-none">Best Sellers (16 Items)</div>
+                <div class="page-info align-items-center d-lg-flex justify-content-between d-none">
+                    <div class="d-flex align-items-center d-flex">
+                        <div class="items-count">
+                            Item 1 to 16 of 60 Items
+                        </div>
+                        <div class="select-container align-items-center d-flex ml-5">
+                            Show
+                            <div class="page-select mx-2 per-page">
+                                <select name="per-page">
+                                    <option value="16">16</option>
+                                    <option value="24">24</option>
+                                </select>
+                            </div>
+                            per page
+                        </div>
+                    </div>
+                    <div class="select-container align-items-center d-flex">
+                        Sort by
+                        <div class="filter-select ml-2">
+                            <select name="sort">
+                                <option value="">Sort</option>
+                                <option value="popularity">Popularity</option>
+                                <option value="new-product">New Product</option>
+                                <option value="lowest-price">Lowest Price</option>
+                                <option value="highest-price">Highest Price</option>
+                                <option value="product-name">Product Name</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-items inside-catalog">
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-1.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE BUNNY LOVE</a>
+                            <div class="stars">
+                                <span class="stars-container stars-100">★★★★★</span>
+                                <span class="comments">(72)</span>
+                            </div>
+                            <div class="price discount">$219</div>
+                            <span class="price-previous">$269</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-2.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE THE LUMINOUS</a>
+                            <div class="stars">
+                                <span class="stars-container stars-100">★★★★★</span>
+                                <span class="comments">(72)</span>
+                            </div>
+                            <div class="price discount">$219</div>
+                            <span class="price-previous">$269</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-3.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE LITTLE DIRTY</a>
+                            <div class="stars">
+                                <span class="stars-container stars-80">★★★★★</span>
+                                <span class="comments">(146)</span>
+                            </div>
+                            <div class="price discount">$59.95</div>
+                            <span class="price-previous">$79.95</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-4.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                            <div class="stars">
+                                <span class="stars-container stars-90">★★★★★</span>
+                                <span class="comments">(19)</span>
+                            </div>
+                            <div class="price discount">$24.95</div>
+                            <span class="price-previous">$29.95</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-5.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                            <div class="stars">
+                                <span class="stars-container stars-90">★★★★★</span>
+                                <span class="comments">(19)</span>
+                            </div>
+                            <div class="price discount">$24.95</div>
+                            <span class="price-previous">$29.95</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-1.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE BUNNY LOVE</a>
+                            <div class="stars">
+                                <span class="stars-container stars-100">★★★★★</span>
+                                <span class="comments">(72)</span>
+                            </div>
+                            <div class="price discount">$219</div>
+                            <span class="price-previous">$269</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-2.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE THE LUMINOUS</a>
+                            <div class="stars">
+                                <span class="stars-container stars-100">★★★★★</span>
+                                <span class="comments">(72)</span>
+                            </div>
+                            <div class="price discount">$219</div>
+                            <span class="price-previous">$269</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-3.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE LITTLE DIRTY</a>
+                            <div class="stars">
+                                <span class="stars-container stars-80">★★★★★</span>
+                                <span class="comments">(146)</span>
+                            </div>
+                            <div class="price discount">$59.95</div>
+                            <span class="price-previous">$79.95</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-4.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                            <div class="stars">
+                                <span class="stars-container stars-90">★★★★★</span>
+                                <span class="comments">(19)</span>
+                            </div>
+                            <div class="price discount">$24.95</div>
+                            <span class="price-previous">$29.95</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-5.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                            <div class="stars">
+                                <span class="stars-container stars-90">★★★★★</span>
+                                <span class="comments">(19)</span>
+                            </div>
+                            <div class="price discount">$24.95</div>
+                            <span class="price-previous">$29.95</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-1.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE BUNNY LOVE</a>
+                            <div class="stars">
+                                <span class="stars-container stars-100">★★★★★</span>
+                                <span class="comments">(72)</span>
+                            </div>
+                            <div class="price discount">$219</div>
+                            <span class="price-previous">$269</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-2.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE THE LUMINOUS</a>
+                            <div class="stars">
+                                <span class="stars-container stars-100">★★★★★</span>
+                                <span class="comments">(72)</span>
+                            </div>
+                            <div class="price discount">$219</div>
+                            <span class="price-previous">$269</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-3.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE LITTLE DIRTY</a>
+                            <div class="stars">
+                                <span class="stars-container stars-80">★★★★★</span>
+                                <span class="comments">(146)</span>
+                            </div>
+                            <div class="price discount">$59.95</div>
+                            <span class="price-previous">$79.95</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-4.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                            <div class="stars">
+                                <span class="stars-container stars-90">★★★★★</span>
+                                <span class="comments">(19)</span>
+                            </div>
+                            <div class="price discount">$24.95</div>
+                            <span class="price-previous">$29.95</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-5.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE ADORE ME</a>
+                            <div class="stars">
+                                <span class="stars-container stars-90">★★★★★</span>
+                                <span class="comments">(19)</span>
+                            </div>
+                            <div class="price discount">$24.95</div>
+                            <span class="price-previous">$29.95</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="sale">sale</div>
+                        <div class="item-top-content">
+                            <a href="#" class="item-img">
+                                <img src="./img/products/img-2.jpg" alt="img">
+                            </a>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                        <div class="item-bottom-content">
+                            <a class="title" href="#">ADAM & EVE THE LUMINOUS</a>
+                            <div class="stars">
+                                <span class="stars-container stars-100">★★★★★</span>
+                                <span class="comments">(72)</span>
+                            </div>
+                            <div class="price discount">$219</div>
+                            <span class="price-previous">$269</span>
+                        </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 24 24"
+                                    style="transform: scale(2) rotate(90deg);">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#202020" stroke="#202020" stroke-width=".2"
+                                            d="M16.15 10l.58.523-3.84 4.264.012.012-.118.106-.375.417-.044-.039-.044.039-.375-.417-.118-.106.011-.012L8 10.523 8.58 10l3.785 4.203L16.149 10z" />
+                                    </g>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">..</a></li>
+                        <li class="page-item"><a class="page-link" href="#">10</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 24 24"
+                                    style="transform: scale(2) rotate(-90deg);">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="#202020" stroke="#202020" stroke-width=".2"
+                                            d="M16.15 10l.58.523-3.84 4.264.012.012-.118.106-.375.417-.044-.039-.044.039-.375-.417-.118-.106.011-.012L8 10.523 8.58 10l3.785 4.203L16.149 10z" />
+                                    </g>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Catalog End -->
+
+    <!-- Start Footer -->
+    <footer class="new-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 row menus px-md-0">
+                    <div class="col-12 pb-4 col-md-6 col-lg-2 px-0">
+                        <h5>Useful links</h5>
+                        <ul>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 pb-4 col-md-6 col-lg-3 px-0">
+                        <h5>Main menu</h5>
+                        <ul class="half-items d-flex flex-wrap">
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">Bondage</a></li>
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Lubes</a></li>
+                            <li><a href="#">Hens Party</a></li>
+                            <li><a href="#">Brands</a></li>
+                            <li><a href="#">Vibrators</a></li>
+                            <li><a href="#">Magic Men Show</a></li>
+                            <li><a href="#">Dildos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 px-0">
+                        <h5>Contact info</h5>
+                        <p class="uppercase white-color pt-sm-2">MAGIC MEN ABN 84 314 489 72</p>
+                        <p class="mb-4" style="max-width: 300px;">Australia's leading full service entertainment and
+                            pleasure chest for women.</p>
+                        <div class="d-flex socials">
+                            <a href="#"><img src="./img/socials/facebook.svg" alt="facebook"></a>
+                            <a href="#"><img src="./img/socials/twitter.svg" alt="twitter"></a>
+                            <a href="#"><img src="./img/socials/instagram.svg" alt="instagram"></a>
+                            <a href="#"><img src="./img/socials/youtube-logo.svg" alt="youtube"></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 px-0">
+                        <h5>Magic ladies club</h5>
+                        <p class="pt-sm-2 mb-4" style="max-width: 320px;">Become a VIP Magic Lady and get the latest
+                            show update, goss and deals.</p>
+                        <form class="footer-form" action="#">
+                            <input name="email" type="email" placeholder="Enter your email address">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 copyright">
+                    <p class="specific-color d-flex align-items-center">© 2020 MAGIC MEN AU</p>
+                    <ul class="pays">
+                        <li><img src="./img/pays/visa-logo.png" alt="Visa"></li>
+                        <li><img src="./img/pays/mastercard-logo.png" alt="Mastercard"></li>
+                        <li><img src="./img/pays/american-express-logo.png" alt="American Express"></li>
+                        <li><img src="./img/pays/paypal-logo.png" alt="Paypal"></li>
+                        <li><img src="./img/pays/google-pay-logo.png" alt="Google Pay"></li>
+                        <li><img src="./img/pays/apple-pay-logo.png" alt="Apple Pay"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Modal Contaner for Filter -->
+    <div id="modal-container">
+        <div class="modal-background">
+            <div class="modal">
+                <div class="content" id="step-1">
+                    <header>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"
+                            id="close-modal">
+                            <g fill="none" fill-rule="evenodd">
+                                <path fill="#6F6F6F" fill-rule="nonzero"
+                                    d="M16.801 6.199c.265.265.265.618 0 .883L12.384 11.5l4.417 4.418c.265.265.265.618 0 .883s-.618.265-.883 0L11.5 12.384l-4.418 4.417c-.265.265-.618.265-.883 0s-.265-.618 0-.883l4.417-4.418-4.417-4.418c-.265-.265-.265-.618 0-.883s.618-.265.883 0l4.418 4.417 4.418-4.417c.265-.265.618-.265.883 0z" />
+                            </g>
+                        </svg>
+                        <div class="title">Filter</div>
+                        <a href="#" class="clear" id="clear-filter">clear</a>
+                    </header>
+                    <ul id="categories-sm" class="categories">
+                        <li data-id="best-sellers">
+                            <a href="javascript:void(0);">BEST SELLERS <span>(New)</span></a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path fill="#6F6F6F" stroke="#6F6F6F" stroke-linejoin="round" stroke-width=".3"
+                                        d="M14 16.268l-.59.732-4.806-4.838-.015.014-.119-.149-.47-.472.046-.055L8 11.445l.47-.473.12-.148.014.013L13.411 6l.589.732L9.262 11.5 14 16.268z" />
+                                </g>
+                            </svg>
+                        </li>
+                        <li data-id="categories">
+                            <a href="javascript:void(0);">CATEGORIES</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path fill="#6F6F6F" stroke="#6F6F6F" stroke-linejoin="round" stroke-width=".3"
+                                        d="M14 16.268l-.59.732-4.806-4.838-.015.014-.119-.149-.47-.472.046-.055L8 11.445l.47-.473.12-.148.014.013L13.411 6l.589.732L9.262 11.5 14 16.268z" />
+                                </g>
+                            </svg>
+                        </li>
+                        <li data-id="brands">
+                            <a href="javascript:void(0);" data-id="brands">BRANDS</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+                                <g fill="none" fill-rule="evenodd">
+                                    <path fill="#6F6F6F" stroke="#6F6F6F" stroke-linejoin="round" stroke-width=".3"
+                                        d="M14 16.268l-.59.732-4.806-4.838-.015.014-.119-.149-.47-.472.046-.055L8 11.445l.47-.473.12-.148.014.013L13.411 6l.589.732L9.262 11.5 14 16.268z" />
+                                </g>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content" id="step-2">
+                    <header>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"
+                            id="back-modal">
+                            <g fill="none" fill-rule="evenodd">
+                                <path fill="#6F6F6F" stroke="#6F6F6F" stroke-linejoin="round" stroke-width=".3"
+                                    d="M14 16.268l-.59.732-4.806-4.838-.015.014-.119-.149-.47-.472.046-.055L8 11.445l.47-.473.12-.148.014.013L13.411 6l.589.732L9.262 11.5 14 16.268z" />
+                            </g>
+                        </svg>
+                        <div class="title">Filter</div>
+                        <a href="#" class="clear">clear</a>
+                    </header>
+
+                    <!-- Start Categories -->
+                    <ul class="categories" data-id="categories">
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" checked="checked" name="vibrators">
+                                <span class="checkmark"></span>
+                                Vibrators
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="anal">
+                                <span class="checkmark"></span>
+                                Anal
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="dongs">
+                                <span class="checkmark"></span>
+                                Dongs
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="dildos-Strapons">
+                                <span class="checkmark"></span>
+                                Dildos, & Strapons
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="bullets">
+                                <span class="checkmark"></span>
+                                Bullets
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="balls">
+                                <span class="checkmark"></span>
+                                Balls
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="eggs">
+                                <span class="checkmark"></span>
+                                Eggs
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="accessories">
+                                <span class="checkmark"></span>
+                                Accessories
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="female-pumps">
+                                <span class="checkmark"></span>
+                                Female Pumps
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="kegel-exercisers">
+                                <span class="checkmark"></span>
+                                Kegel Exercisers
+                            </label>
+                        </li>
+                    </ul>
+                    <!-- End Categories -->
+
+                    <!-- Start Best Sellers -->
+                    <ul class="categories" data-id="best-sellers">
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" checked="checked" name="new">
+                                <span class="checkmark"></span>
+                                New
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="popular">
+                                <span class="checkmark"></span>
+                                Popular
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="price">
+                                <span class="checkmark"></span>
+                                Price
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="everything-on-sort">
+                                <span class="checkmark"></span>
+                                Everything on sort
+                            </label>
+                        </li>
+                    </ul>
+                    <!-- Start Best Sellers -->
+
+                    <!-- Start Brands -->
+                    <ul class="categories" data-id="brands">
+                        <li class="search">
+                            <input name="brand-search" placeholder="Find your brand">
+                            <img src="./img/search.svg" alt="search">
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="adam-eve">
+                                <span class="checkmark"></span>
+                                Adam & Eve
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="50-shades-of-grey">
+                                <span class="checkmark"></span>
+                                50 Shades of Grey
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="bodywand-massager">
+                                <span class="checkmark"></span>
+                                Bodywand Massager
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" checked="checked" name="clone-a-willy">
+                                <span class="checkmark"></span>
+                                Clone-a-Willy
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="evolved">
+                                <span class="checkmark"></span>
+                                Evolved
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="magic-men-show">
+                                <span class="checkmark"></span>
+                                MAGIC MEN SHOW
+                            </label>
+                        </li>
+                        <li>
+                            <label class="custom-checkbox-container">
+                                <input type="checkbox" name="magic-men-au">
+                                <span class="checkmark"></span>
+                                MAGIC MEN AU
+                            </label>
+                        </li>
+                    </ul>
+                    <!-- End Brands -->
+                    <button class="view-more">View 6 Results</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Contaner for Filter -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
