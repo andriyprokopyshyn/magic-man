@@ -2997,6 +2997,7 @@ section.instagram {
                 padding: 0 14px;
                 max-height: 154px;
                 overflow-y: auto;
+                overflow-x: hidden;
                 margin: 16px 14px 16px 0;
 
                 &::-webkit-scrollbar-track
