@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css?ver=1.03">
+    <link rel="stylesheet" href="css/flickity.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+</head>
+<body>
+
+<!-- Start Header -->
+<header id="header">
+
+    <!-- Start Header for Large Devices -->
+    <nav class="navbar navbar-expand-lg navbar-big">
+
+        <div class="top-content">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/magic-men-gold-logo.png" alt="logo">
+                </a>
+                <form class="input-group search-bar">
+                    <input type="text" class="form-control" placeholder="Search Product…" aria-label="Search Product…" required>
+                    <div class="category-select">
+                        <select>
+                            <option value="0">All Categories</option>
+                            <option value="1">Best Sellers</option>
+                            <option value="2">Merchandise</option>
+                            <option value="3">Hens Party</option>
+                            <option value="4">Vibrators</option>
+                            <option value="5">Dildos</option>
+                            <option value="6">Bondage</option>
+                            <option value="7">Lubes</option>
+                            <option value="8">Brands</option>
+                        </select>
+                    </div>
+                    <div class="input-group-append">
+                        <button type="submit">
+                            <img src="./img/search.svg" alt="search">
+                        </button>
+                    </div>
+                </form>
+                <div class="personal-info">
+                    <div class="item">
+                        <img src="./img/user.svg" alt="user">
+                        <div class="links">
+                            <a href="#">My Account</a>
+                            <a href="#">Log In</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/heart.svg" alt="heart">
+                        <div class="links">
+                            <a href="#">Wish List</a>
+                            <a href="#">Special products</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="shop-icon-cart">
+                            <span class="badge badge-pill">0</span>
+                            <img src="./img/shop-cart.svg" alt="shop-cart">
+                        </div>
+                        <div class="links">
+                            <a href="#">My Cart</a>
+                            <span class="price">0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <div class="container d-flex">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">BEST SELLERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MERCHANDISE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HENS PARTY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">VIBRATORS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DILDOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BONDAGE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LUBES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BRANDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MAGIC MEN SHOW</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header for Large Devices -->
+
+    <!-- Start Header for Mobile Devices -->
+    <nav class="navbar navbar-expand-lg navbar-small">
+        <div class="top-content">
+            <div class="top-content-left">
+                <button id="toogler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a href="#" class="menu-icon search-icon">
+                    <img src="./img/combined-shape.svg" alt="search">
+                </a>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="./img/magic-men-gold-logo.png" alt="logo">
+            </a>
+            <div class="top-content-right">
+                <a href="#" class="menu-icon heart-icon">
+                    <img src="./img/heart.svg" alt="heart">
+                </a>
+                <a href="#" class="menu-icon shop-icon-cart">
+                    <span class="badge badge-pill">0</span>
+                    <img src="./img/shop-cart.svg" alt="shop-cart">
+                </a>
+            </div>
+        </div>
+        <div class="bottom-content">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">BEST SELLERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MERCHANDISE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HENS PARTY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">VIBRATORS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DILDOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BONDAGE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LUBES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BRANDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MAGIC MEN SHOW</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="input-group search-bar">
+                    <input type="text" class="form-control" placeholder="Search Product…" aria-label="Search Product…" required>
+                    <div class="input-group-append">
+                        <button type="submit">
+                            <img src="./img/search.svg" alt="search">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End Header for Mobile Devices -->
+
+</header>
+<!-- End Header -->
+
+<!-- Start Main Banner for Large Devices -->
+
+<main class="banner">
+    <div class="proposition">
+        20% satisfyer range off with code: satisfaction20<span class="timer">00:00:00</span>
+    </div>
+
+    <div class="main-content">
+        <div class="breadcrumb">
+            <ul>
+                <li class="breadcrumb-item"><a href="index.html">home</a></li>
+                <li class="breadcrumb-item"><a href="index.html">best sellers</a></li>
+                <li class="breadcrumb-item">Satisfyer Pro 2 Next Gen</li>
+            </ul>
+        </div>
+        <div class="product">
+            <div class="images">
+                <div class="small-images">
+                    <ul>
+                        <li><a href=""><img src="img/products/small-1.jpg"></a></li>
+                        <li><a href=""><img src="img/products/small-2.jpg"></a></li>
+                        <li><a href=""><img src="img/products/small-3.jpg"></a></li>
+                        <li><a href=""><img src="img/products/small-4.jpg"></a></li>
+                        <li><a href=""><img src="img/products/small-5.jpg"></a></li>
+                    </ul>
+                </div>
+                <div class="main-image">
+                    <img src="img/top-sellers/img-1.jpg">
+                </div>
+            </div>
+            <div class="info">
+
+            </div>
+        </div>
+    </div>
+
+</main>
+<!-- Start Footer -->
+<footer class="new-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 row menus px-md-0">
+                <div class="col-12 pb-4 col-md-6 col-lg-2 px-0">
+                    <h5>Useful links</h5>
+                    <ul>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 pb-4 col-md-6 col-lg-3 px-0">
+                    <h5>Main menu</h5>
+                    <ul class="half-items d-flex flex-wrap">
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Bondage</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Lubes</a></li>
+                        <li><a href="#">Hens Party</a></li>
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">Vibrators</a></li>
+                        <li><a href="#">Magic Men Show</a></li>
+                        <li><a href="#">Dildos</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 px-0">
+                    <h5>Contact info</h5>
+                    <p class="uppercase white-color pt-sm-2">MAGIC MEN ABN 84 314 489 72</p>
+                    <p class="mb-4" style="max-width: 300px;">Australia's leading full service entertainment and pleasure chest for women.</p>
+                    <div class="d-flex socials">
+                        <a href="#"><img src="./img/socials/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="./img/socials/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="./img/socials/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="./img/socials/youtube-logo.svg" alt="youtube"></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 px-0">
+                    <h5>Magic ladies club</h5>
+                    <p class="pt-sm-2 mb-4" style="max-width: 320px;">Become a VIP Magic Lady and get the latest show update, goss and deals.</p>
+                    <form class="footer-form" action="#">
+                        <input name="email" type="email" placeholder="Enter your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 copyright">
+                <p class="specific-color d-flex align-items-center">© 2020 MAGIC MEN AU</p>
+                <ul class="pays">
+                    <li><img src="./img/pays/visa-logo.png" alt="Visa"></li>
+                    <li><img src="./img/pays/mastercard-logo.png" alt="Mastercard"></li>
+                    <li><img src="./img/pays/american-express-logo.png" alt="American Express"></li>
+                    <li><img src="./img/pays/paypal-logo.png" alt="Paypal"></li>
+                    <li><img src="./img/pays/google-pay-logo.png" alt="Google Pay"></li>
+                    <li><img src="./img/pays/apple-pay-logo.png" alt="Apple Pay"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/flickity.pkgd.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
