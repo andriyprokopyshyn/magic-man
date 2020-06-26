@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="376px" height="72px" viewBox="0 0 376 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>61CE2658-F9B9-4D4E-B95D-20AF892320D7</title>
+    <defs>
+        <filter x="-5.5%" y="-60.0%" width="111.0%" height="220.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="-11.2364742%" y1="50%" x2="109.746698%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFDD79" offset="0%"></stop>
+            <stop stop-color="#F6B83A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="product-page-3-copy-2" transform="translate(-1112.000000, -805.000000)">
+            <g id="Group-2-Copy-3" transform="translate(1112.000000, 805.000000)">
+                <g id="Group-3">
+                    <g id="Group-4">
+                        <g id="Group-24">
+                            <g id="Group-5">
+                                <rect id="Rectangle" fill="#92712D" filter="url(#filter-1)" x="24" y="24" width="328" height="30" rx="4"></rect>
+                                <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="0" width="376" height="60" rx="4"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F7688E47-4078-45E2-A999-7715C35D59B8</title>
+    <defs>
+        <polygon id="path-1" points="-9.74736525e-05 0.0248759634 23.900411 0.0248759634 23.900411 22.7964149 -9.74736525e-05 22.7964149"></polygon>
+        <path d="M15.5080632,7.3198766 C15.5685948,7.4546214 15.6954622,7.54666246 15.8422304,7.56283184 L23.5293176,8.4069562 C23.8858731,8.44592854 24.0293245,8.88747689 23.7639809,9.12877373 L18.0408509,14.3299231 C17.9318113,14.4290123 17.8837177,14.5782681 17.9135689,14.7225487 L19.4861444,22.2943773 C19.5591139,22.645543 19.1830722,22.9183494 18.8717081,22.7404863 L12.1568564,18.9050273 C12.0287452,18.8320578 11.8720266,18.8320578 11.7439154,18.9050273 L5.02906369,22.7404863 C4.71728494,22.9183494 4.3416579,22.645543 4.41462739,22.2943773 L5.98720287,14.7225487 C6.01705403,14.5782681 5.9689605,14.4290123 5.85992086,14.3299231 L0.136790892,9.12877373 C-0.128552717,8.88747689 0.0148986719,8.44592854 0.371454147,8.4069562 L8.05854142,7.56283184 C8.20530961,7.54666246 8.33176242,7.4546214 8.39270853,7.3198766 L11.5710274,0.270028582 C11.7182102,-0.0570903359 12.1825615,-0.0570903359 12.3297443,0.270028582 L15.5080632,7.3198766 Z" id="path-3"></path>
+        <linearGradient x1="43.9719484%" y1="28.7402344%" x2="58.4020113%" y2="96.1618011%" id="linearGradient-5">
+            <stop stop-color="#FFDD79" offset="0%"></stop>
+            <stop stop-color="#F6B83A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="product-page-3-copy-2" transform="translate(-1234.000000, -426.000000)">
+            <g id="Group-31-Copy-3" transform="translate(1112.000000, 426.000000)">
+                <g id="Group-22" transform="translate(122.721419, 0.389806)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-21"></g>
+                    <g id="Rectangle" mask="url(#mask-2)">
+                        <g transform="translate(-0.000097, 0.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" stroke="none" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect id="Rectangle" stroke="none" fill="url(#linearGradient-5)" fill-rule="evenodd" mask="url(#mask-4)" x="9.7473654e-05" y="0" width="12" height="23"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
