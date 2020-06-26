@@ -91,6 +91,15 @@ $("input[name='brand-search']").on('keyup', function () {
   $("input[name='brand-search']").val(value);
 })
 
+$(".menu-icon.search-icon").on("click", function(e) {
+  e.preventDefault();
+  var searchBar = document.querySelector(".navbar-small .bottom-content");
+  var currentMargin = searchBar.style.marginTop;
+  if (window.pageYOffset > 0) {
+    searchBar.style.marginTop = (currentMargin === "0px") ? "-100px" : "0";
+  }
+})
+
 var filterFirstSlide = $(".modal #step-1");
 var filterSecondSlide = $(".modal #step-2");
 
