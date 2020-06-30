@@ -2865,10 +2865,10 @@ main {
         margin-bottom: 72px;
 
         .item {
-            width: 30%;
+            width: calc((100% / 5) - 8px);
 
             &:not(:last-of-type) {
-                margin-right: 26px;
+                margin-right: 10px;
             }
 
             .sale {
@@ -2912,7 +2912,11 @@ main {
 @media (min-width: 1440px) {
     .product-items {
         .item {
-            width: 299px;
+            width: calc((100% / 5) - 20px);
+
+            &:not(:last-of-type) {
+                margin-right: 25px;
+            }
 
             .item-img {
                 img {
