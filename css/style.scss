@@ -324,9 +324,11 @@ section {
             .bottom-content {
                 background-color: #fff;
             }
-            .search-bar button {
-                background-image: linear-gradient(to bottom, #2f2f2f, #202020);
-            }
+            .search-bar {
+                button {
+                    background-image: linear-gradient(to bottom, #2f2f2f, #202020);
+                }
+            }                    
         }
     }
 
@@ -620,9 +622,12 @@ section {
             margin-left: 14px;
         }
         .search-bar {
+            width: 100%;
             input {
                 padding: 11px 16px;
                 font-size: 16px;
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
             }
             button {
                 width: 48px;
@@ -1069,7 +1074,7 @@ section {
     letter-spacing: 1px;
     text-align: center;
     color: #202020;
-    padding: 11px 15px;
+    padding: 8px 15px;
     background-color: #fbc6ea;
 
     .timer {
@@ -1716,8 +1721,6 @@ main {
         display: flex;
     }
     .proposition {
-        font-size: 15px;
-        padding: 11px 15px;
 
         .timer {
             margin-left: 25px;
@@ -1807,8 +1810,8 @@ main {
 
 @media (min-width: 1440px) {
     .proposition {
-        font-size: 16px;
-        padding: 15px;
+        font-size: 15px;
+        padding: 12px 15px;
     }
     .main-banner-md {
         .left-carousel {
